@@ -1,4 +1,4 @@
-FROM node:20.13.1-buster
+FROM node:20.19.0-bookworm-slim
 
 RUN apt-get -y update && apt-get -y install ca-certificates apt-transport-https
 
